@@ -65,6 +65,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Modify theme JS to force dark theme by default
+        run: |
+          sed -i 's/window.matchMedia("(prefers-color-scheme: dark)").matches/true/' themes/hello-friend-ng/assets/js/main.js
 
   # Deployment job
   deploy:
