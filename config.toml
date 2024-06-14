@@ -1,0 +1,15 @@
+baseURL = 'http://christian.betz.cc/'
+languageCode = 'en-us'
+title = 'christian.betz.cc'
+theme = "hello-friend-ng"
+paginate = 10
+
+[params]
+    homeSubtitle = "Never attribute to malice that which is adequately explained by stupidity."
+    defaultTheme = true
+    enableThemeToggle = true
+
+    [params.logo]
+        logoMark     = ">"    
+        logoText     = "$ cd /home/"
+        logoHomeLink = "/"
