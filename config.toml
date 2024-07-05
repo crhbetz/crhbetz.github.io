@@ -9,10 +9,41 @@ paginate = 10
     defaultTheme = true
     enableThemeToggle = true
 
+    # Show a global language switcher in the navigation bar
+    enableGlobalLanguageMenu = true
+
     [params.logo]
         logoMark     = ">"    
         logoText     = "$ cd /home/"
         logoHomeLink = "/"
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]  
+    [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'christian.betz.cc'
+    weight = 2
+      [languages.de.params]
+         subtitle = 'Schreibe nicht der Böswilligkeit zu, was durch Dummheit hinreichend erklärbar ist.'
+         homesubtitle = 'Schreibe nicht der Böswilligkeit zu, was durch Dummheit hinreichend erklärbar ist.'
+
+
+    [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US' 
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'christian.betz.cc'
+    weight = 1 
+      [languages.en.params]
+        subtitle = 'Never attribute to malice that which is adequately explained by stupidity.'
+        homesubtitle = 'Never attribute to malice that which is adequately explained by stupidity.'
 
 [menu]
    [[menu.main]]
