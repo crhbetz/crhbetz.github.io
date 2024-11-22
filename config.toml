@@ -28,9 +28,9 @@ copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_
         author = true
 
     [params.portrait]   
-    path     = "avatar-bottle.png"   
+    path     = "https://christian.betz.cc/avatar-bottle.png"
     alt      = "Portrait"
-    # maxWidth = "50px"
+    maxWidth = "155px"
 
 
     # icons: https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/docs/svgs.md
