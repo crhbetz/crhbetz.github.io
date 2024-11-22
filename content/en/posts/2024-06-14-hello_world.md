@@ -8,6 +8,4 @@ tags:
   - untagged
 ---
 
-# Lorem ipsum
-
-Lorem ipsum
+Until further notice, this website serves as an extended personal business card.

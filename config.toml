@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'christian.betz.cc'
 theme = "hello-friend-ng"
 paginate = 10
+copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
 
 [params]
     homeSubtitle = "Never attribute to malice that which is adequately explained by stupidity."
@@ -17,6 +18,58 @@ paginate = 10
         logoText     = "$ cd /home/"
         logoHomeLink = "/"
 
+    [params.author]
+        name = "Christian Betz"
+
+    [params.footer]
+        trademark = 2024
+        rss = true
+        copyright = true
+        author = true
+
+    [params.portrait]   
+    path     = "avatar-bottle.png"   
+    alt      = "Portrait"
+    # maxWidth = "50px"
+
+
+    # icons: https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/docs/svgs.md
+    [[params.social]]
+    name = "email"
+    url = "mailto:hi@christian.betz.cc"
+
+    [[params.social]]
+    name = "threema"
+    url = "https://s.spezi.it/threema"
+
+    [[params.social]]
+    name = "signal"
+    url = "https://s.spezi.it/signal"
+
+    [[params.social]]
+    name = "whatsapp"
+    url = "https://s.spezi.it/wa"
+
+    [[params.social]]
+    name = "telegram"
+    url = "https://t.me/Spezi"
+
+    [[params.social]]
+    name = "github"
+    url = "https://github.com/crhbetz"
+
+    [[params.social]]
+    name = "mastodon"
+    url = "https://social.anoxinon.de/@Spezi"
+
+    [[params.social]]
+    name = "reddit"
+    url = "https://discuss.tchncs.de/u/Spezi"
+
+    [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/crhbetz"
+
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 [languages]  
@@ -28,6 +81,7 @@ defaultContentLanguageInSubdir = true
     languageName = 'Deutsch'
     title = 'christian.betz.cc'
     weight = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
       [languages.de.params]
          subtitle = 'Schreibe nicht der Böswilligkeit zu, was durch Dummheit hinreichend erklärbar ist.'
          homesubtitle = 'Schreibe nicht der Böswilligkeit zu, was durch Dummheit hinreichend erklärbar ist.'
@@ -41,6 +95,7 @@ defaultContentLanguageInSubdir = true
     languageName = 'English'
     title = 'christian.betz.cc'
     weight = 1 
+    copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
       [languages.en.params]
         subtitle = 'Never attribute to malice that which is adequately explained by stupidity.'
         homesubtitle = 'Never attribute to malice that which is adequately explained by stupidity.'
@@ -54,3 +109,6 @@ defaultContentLanguageInSubdir = true
      identifier = "posts"
      name       = "Posts"
      url        = "posts/"
+
+[author]
+    name = "Christian Betz"

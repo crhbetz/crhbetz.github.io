@@ -8,6 +8,4 @@ tags:
   - untagged
 ---
 
-# Lorem ipsum Deutschum
-
-Lorem ipsum Deutschum
+Bis auf weiteres dient diese Website als erweiterte persönliche Visitenkarte.
